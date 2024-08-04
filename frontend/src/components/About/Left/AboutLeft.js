@@ -4,8 +4,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 
 function AboutLeft() {
+  const whatsappNumber = "+971585086191"; // Without the '+' sign
+  const message = "Hello, I would like to know more"; // Optional message
   const [hasAnimated, setHasAnimated] = useState(false);
   const aboutLeftRef = useRef(null);
+  
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -34,8 +37,8 @@ function AboutLeft() {
   return (
     <div className="AboutLeft-Container container" ref={aboutLeftRef}>
       <div className="AboutLeft-heading">
-        <h1 className="AboutLeft-heading AboutLeft-heading-1">ANDRII</h1>
-        <h1 className="AboutLeft-heading AboutLeft-heading-1">SIRENKO</h1>
+        <h1 className="AboutLeft-heading AboutLeft-heading-1">NATEISHA</h1>
+        <h1 className="AboutLeft-heading AboutLeft-heading-1">FOSTER</h1>
       </div>
       <ul className="AboutLeft-ul">
         <li className="AboutLeft-li">
@@ -48,7 +51,13 @@ function AboutLeft() {
         <li className="AboutLeft-li">Business consulting in Dubai.</li>
       </ul>
       <div className="AboutLeft-link">
-        <a href="#">
+        <a
+          href={`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
+            message
+          )}`}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Contact me in 1 click
           <FontAwesomeIcon className="AboutLeft-sendIcon" icon={faPaperPlane} />
         </a>

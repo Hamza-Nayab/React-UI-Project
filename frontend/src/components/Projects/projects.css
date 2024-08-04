@@ -12,7 +12,7 @@
     margin-bottom: 2rem;
     color: rgba(72, 2, 2, 0.636);
     cursor: default;
-    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-family: "Times New Roman", cursive;
     transform: translateY(-50px);
     opacity: 0;
     transition: transform 0.5s, opacity 0.5s;

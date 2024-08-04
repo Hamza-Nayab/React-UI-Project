@@ -9,7 +9,7 @@ function Contact() {
     <div className="Contact-Container container-fluid">
       <div className="Contact-Sub-Container container">
         <div className="Contact-heading">
-          <h1 className="Contact-heading Contact-heading-1">Andrii Sirenko</h1>
+          <h1 className="Contact-heading Contact-heading-1">Nateisha Foster</h1>
           <h6 className="Contact-heading Contact-heading-6">
             With me, you will receive all the real estate services you need and
             even more because I will act as a guide for you to the world of big
@@ -32,7 +32,7 @@ function Contact() {
                 </span>
                 <span className="Contact-info">
                   <FontAwesomeIcon className="fa-icon" icon={faEnvelope} />{" "}
-                  andrii.sirenko@mpd.ae
+                  Contact@contact.com
                 </span>
               </div>
             </div>

@@ -14,7 +14,7 @@
     color: rgba(72, 2, 2, 0.636);
     font-size: 4rem;
     cursor: default;
-    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-family: "Times New Roman", cursive;
 }
 
 .AboutLeft-li {
@@ -24,7 +24,7 @@
     color: rgba(72, 2, 2, 0.636);
     font-size: 1.25rem;
     cursor: default;
-    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-family: "Times New Roman", cursive;
     font-weight: bold;
 }
 
@@ -33,7 +33,7 @@
     color: rgba(72, 2, 2, 0.636);
     font-size: 1.25rem;
     cursor: pointer;
-    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-family: "Times New Roman", cursive;
     font-weight: bold;
     text-decoration: none;
 }

@@ -7,6 +7,7 @@ import Benefits from "../Benefits/Benefits";
 import Projects from "../Projects/Projects";
 import Visa from "../Visa/Visa";
 import Contact from "../Contact/Contact";
+import Contactme from "../ContactMe/Contactme";
 
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
       <Benefits />
       <Projects />
       <Visa />
+      <Contactme />
       <Contact />
     </div>
   );

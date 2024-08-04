@@ -2,6 +2,12 @@ import React, { useEffect, useRef, useState } from "react";
 import "./hero.css";
 
 function Hero() {
+  const handleButtonClick = () => {
+    const whatsappNumber = '+971585086191'; // Without the '+' sign
+    const message = 'Hello, I would like to know more about investment'; // Optional message
+    window.location.href = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+  };
+
   const [hasAnimated, setHasAnimated] = useState(false);
   const heroRef = useRef(null);
 
@@ -34,7 +40,7 @@ function Hero() {
       <div className="Hero-Sub-Container" ref={heroRef}>
         <h1 className="Hero-heading Hero-heading-1">INVESTMENTS</h1>
         <h6 className="Hero-heading Hero-heading-6">DUBAI</h6>
-        <button className="Hero-btn">Learn More</button>
+        <button className="Hero-btn" onClick={handleButtonClick} >Learn More</button>
       </div>
     </div>
   );
