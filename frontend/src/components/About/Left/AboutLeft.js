@@ -42,13 +42,12 @@ function AboutLeft() {
       </div>
       <ul className="AboutLeft-ul">
         <li className="AboutLeft-li">
-          Serial entrepreneur in Real estate, IT, design, and events in Dubai.
+          Senior Investment Advisor with International Experience
         </li>
         <li className="AboutLeft-li">
-          Expert in affiliate marketing and finding a resource through
-          communications and connections.
+          Expert in Off-Plan market, Secondary Real-Estate
         </li>
-        <li className="AboutLeft-li">Business consulting in Dubai.</li>
+        <li className="AboutLeft-li">Contracts with all the Major Developers in UAE</li>
       </ul>
       <div className="AboutLeft-link">
         <a

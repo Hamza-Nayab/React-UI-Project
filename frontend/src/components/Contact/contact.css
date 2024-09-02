@@ -44,7 +44,7 @@
 .Contact-card-title {
     color: rgba(72, 2, 2, 0.636);
     cursor: default;
-    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-family: "Times New Roman", cursive;
     text-align: left;
     font-size: 1.25rem;
     margin: 1rem;
@@ -91,7 +91,7 @@
     color: rgba(72, 2, 2, 0.636);
     font-size: 1rem;
     cursor: default;
-    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-family: "Times New Roman", cursive;
     font-weight: bold;
 }
 

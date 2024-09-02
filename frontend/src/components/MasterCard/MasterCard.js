@@ -35,13 +35,13 @@ function MasterCard() {
       <div className="MasterCard-card card" ref={cardRef}>
         <img src={dubaiImg} className="MasterCard-img card-img-top" alt="..." />
         <div className="MasterCard-body card-body">
-          <p className="MasterCard-text card-text">
+          <p className="MasterCard-text card-text fs-6 fs-md-5">
             Dubai has long been a symbol of luxury and big money. This city is
             not just the capital of the Middle East business but also a
             promising place for real estate buyers. Dubai is a center of
             culture, tourism, and investment.
-          </p>{" "}
-          <p className="MasterCard-text card-text">
+          </p>
+          <p className="MasterCard-text card-text fs-6 fs-md-5">
             A huge selection of real estate objects includes private and
             commercial properties.
           </p>

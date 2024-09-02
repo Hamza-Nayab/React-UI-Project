@@ -16,30 +16,52 @@ function Contact() {
             money in the Middle East business capital.
           </h6>
         </div>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-          <div class="col">
-            <div class="Contact-card card h-100">
-              <div class="Contact-card-body card-body">
-                <h5 class="Contact-card-title card-title">Get in touch</h5>
+        <div className="row row-cols-1 row-cols-md-3 g-4">
+          <div className="col">
+            <div className="Contact-card card h-100">
+              <div className="Contact-card-body card-body">
+                <h5 className="Contact-card-title card-title">Get in touch</h5>
                 <span className="Contact-icons">
-                  <FontAwesomeIcon className="fa-icon" icon={faFacebookF} />
-                  <FontAwesomeIcon className="fa-icon" icon={faPhoneAlt} />
-                  <FontAwesomeIcon className="fa-icon" icon={faInstagram} />
+                  {/* Instagram Link */}
+                  <a 
+                    href="https://www.instagram.com/nateishatherealtor" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    style={{ color: 'inherit', textDecoration: 'none' }}
+                  >
+                    <FontAwesomeIcon className="fa-icon" icon={faInstagram} />
+                  </a>
+                  {/* WhatsApp Link */}
+                  <a 
+                    href="https://wa.me/+971585086191" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    style={{ color: 'inherit', textDecoration: 'none' }}
+                  >
+                    <FontAwesomeIcon className="fa-icon" icon={faPhoneAlt} />
+                  </a>
                 </span>
                 <span className="Contact-info">
-                  <FontAwesomeIcon className="fa-icon" icon={faPhoneAlt} /> +971
-                  56 134 88 64
+                  <a 
+                    href="https://wa.me/+971585086191" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    style={{ color: 'inherit', textDecoration: 'none' }}
+                  >
+                    <FontAwesomeIcon className="fa-icon" icon={faPhoneAlt} /> 
+                    +971 58 508 6191
+                  </a>
                 </span>
                 <span className="Contact-info">
                   <FontAwesomeIcon className="fa-icon" icon={faEnvelope} />{" "}
-                  Contact@contact.com
+                  foster@monet.ae
                 </span>
               </div>
             </div>
           </div>
-          <div class="col">
-            <div class="Contact-card card h-100">
-              <div class="Contact-card-body card-body">
+          <div className="col">
+            <div className="Contact-card card h-100">
+              <div className="Contact-card-body card-body">
                 <ul className="Contact-card-ul">
                   <li className="Contact-card-li">
                     Assistance in buying, selling, or renting
@@ -54,16 +76,16 @@ function Contact() {
               </div>
             </div>
           </div>
-          <div class="col">
-            <div class="Contact-card card h-100">
-              <div class="Contact-card-body card-body">
+          <div className="col">
+            <div className="Contact-card card h-100">
+              <div className="Contact-card-body card-body">
                 <ul className="Contact-card-ul">
                   <li className="Contact-card-li">From $ 250.000</li>
                   <li className="Contact-card-li">
-                    47 current residential complexes
+                    50+ residential complexes
                   </li>
                   <li className="Contact-card-li">
-                    Top 7 real estate developers in the UAE
+                    Contracts Top real estate developers in the UAE
                   </li>
                   <li className="Contact-card-li">
                     Apartments, condos, villas and townhouses

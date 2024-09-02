@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./aboutRight.css";
-import dummyImg from "../../../images/dummyImg.png";
+import dummyImg from "../../../images/dummyImg.jpg";
 
 function AboutRight() {
   const [hasAnimated, setHasAnimated] = useState(false);
