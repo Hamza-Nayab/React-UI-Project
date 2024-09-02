@@ -91,7 +91,7 @@
 
     .MasterCard-body {
         margin-top: 1.5rem;
-        height: 45vh;
+        height: auto;
     }
 
     .MasterCard-text {
